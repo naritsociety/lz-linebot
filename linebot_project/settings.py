@@ -25,7 +25,9 @@ SECRET_KEY = '6s1^2=3v8#=)@w#m8_7-z=uukrzn+_s_!rfe%2n=&5s%#6a1_p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'lz-linebot.herokuapp.com',
+]
 
 
 # Application definition
